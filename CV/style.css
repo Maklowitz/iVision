@@ -43,7 +43,6 @@ color: #ee7977;
 }
 
 .headerlogo .circle {
-  width: 12.5rem;
   height: 12.5rem;
   border-radius: 50%;
 }
@@ -56,13 +55,12 @@ color: #ee7977;
 }
 
 .headerlogo {
-  margin-top: 1rem;
+  margin-top: 7rem;
   width: 100vw;
   display:flex;
   flex-direction: row;
   align-items:center;
   justify-content: space-between;
-  padding: 64px;
 }
 
 .important {
@@ -75,20 +73,20 @@ color: #ee7977;
 
 .treeright {
   font-weight: 700;
-  font-size: 1.55rem;
+  font-size: 1.5vw;
   width: 17vw;
   animation: show 6s 3s both ;
   opacity:0;
-  margin: 5px;
+  margin-right: 2vw;
 }
 
 .treeleft {
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 2vw;
   width: 17vw;
   animation: show 3s 1.5s both ;
   opacity:0;
-  margin: 5px;
+  margin-left: 2vw;
 }
 
 /* ------------- Druga Strona -------- */
@@ -131,7 +129,7 @@ color: #ee7977;
 }
 
 .music, .books, .politics {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.5rem;
   width:55vw;
   text-align:left;
@@ -183,3 +181,15 @@ ol > li {
   border: 7px double #fff;
   margin:auto;
 }
+
+footer {
+  text-align:center;
+  padding:10px;
+  background-color: #333;
+}
+
+@media (max-width:850px) {
+  .navbar-list {
+      display:none
+  }
+  }
