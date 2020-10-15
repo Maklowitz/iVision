@@ -9,7 +9,7 @@ body{
 }
 
 header {
-  min-height: 70vh;
+  min-height: 700px;
   background: url("fox.jpg") no-repeat center;
   background-size: cover;
   overflow:hidden;
@@ -43,47 +43,48 @@ color: #ee7977;
 }
 
 .headerlogo .circle {
-  display: block;
-  margin-top: 10vh;
   width: 12.5rem;
   height: 12.5rem;
   border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  top: 200%;
-  transform: translate(-50%, -50%);
 }
 
 .name {
   text-align:center;
   font-size:2rem;
   font-weight:bold;
-  margin-top:1rem;
+  margin:1rem;
 }
 
 .headerlogo {
-  position: relative;
   margin-top: 1rem;
+  width: 100vw;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-between;
+  padding: 64px;
 }
 
-.drzeworight {
-  position: absolute;
+.important {
+  width:13rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.treeright {
   font-weight: 700;
   font-size: 1.55rem;
-  right: 1rem;
-  top: 14rem;
   width: 17vw;
   animation: show 6s 3s both ;
   opacity:0;
   margin: 5px;
 }
 
-.drzewoleft {
-  position: absolute;
+.treeleft {
   font-weight: 700;
   font-size: 2rem;
-  left: 1rem;
-  top:14rem;
   width: 17vw;
   animation: show 3s 1.5s both ;
   opacity:0;
